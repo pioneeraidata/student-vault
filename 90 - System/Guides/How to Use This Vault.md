@@ -29,6 +29,7 @@ Drop back to the one habit: open the daily note, write two sentences. Momentum b
 - [The Loop: Capture, Keep, Understand](The%20Loop%20-%20Capture%20Keep%20Understand.md): the thinking habit this whole vault is built to teach
 - [Linking & MOCs 101](Linking%20%26%20MOCs%20101.md): how notes connect, in two minutes
 - [Study Smarter](Study%20Smarter.md): how to use this vault to actually remember things
+- [Managing Your Time](Managing%20Your%20Time.md): when school, your sport, music, and friends all collide
 - [Setup: Turn On These Plugins](Setup%20-%20Turn%20On%20These%20Plugins.md): the two settings that make it click
 
 ## Connected Notes

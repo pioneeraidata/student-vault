@@ -4,6 +4,8 @@ Every sport, club, job, volunteer thing, and leadership role, with dates and wha
 
 This page becomes your [[Activities Resume]] and half your college application. Future you is begging present you to keep it current.
 
+> Your sport and your music get their own homes in [Athletics](../70%20-%20Athletics/Athletics%20Hub.md) and [Music](../80%20-%20Music/Music%20Hub.md), where you track them week to week. Pull the highlights here so the resume version is ready when you need it.
+
 ## Activities
 
 | Activity | Role | Dates | What I did / accomplished |

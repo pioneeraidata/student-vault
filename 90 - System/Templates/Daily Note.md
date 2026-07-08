@@ -5,6 +5,9 @@
 **The one thing that matters most today:**
 >
 
+**On today (practice, lesson, game, plans):**
+>
+
 **Homework and to-dos:**
 - [ ]
 - [ ]
@@ -28,4 +31,4 @@
 >
 
 ---
-Links: [[Classes MOC]] · [[Assignments Dashboard]] · [[Study Hub]]
+Links: [[Classes MOC]] · [[Assignments Dashboard]] · [[Study Hub]] · [[Weekly Planner]]

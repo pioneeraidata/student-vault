@@ -33,9 +33,16 @@ Start Here.md            Front door / dashboard
 20 - Assignments/        Every due date in one place
 30 - Study/              Study guides + self-quizzes
 40 - Reading/            Book and article notes
-50 - Life/               Goals, clubs, sports, ideas
+50 - Life/               Goals, clubs, friends, ideas, and the weekly time plan
 60 - College & Future/   College list, essays, activities, deadlines
+70 - Athletics/          Seasons, games, goals, and getting better
+80 - Music/              Instruments, lessons, pieces, performances
 90 - System/             Templates, Guides, MOCs, and vault config
 ```
+
+Time management is treated as a first-class layer, not a folder. `My Commitments`
+(fixed weekly schedule), the `Weekly Planner` template, and the `Managing Your Time`
+guide help a student see collisions (in-season plus a big test plus a recital plus a
+social plan) before they happen, and keep friends from getting squeezed out.
 
 House rule inherited from the design: no em dashes anywhere in the notes.
