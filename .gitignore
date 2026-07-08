@@ -1,0 +1,14 @@
+# Obsidian workspace and cache (per-machine, not part of the template)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+
+# Obsidian trash
+.trash/
+
+# macOS
+.DS_Store
+
+# Keep the useful config committed: app.json, appearance.json,
+# core-plugins.json, daily-notes.json, templates.json
