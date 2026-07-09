@@ -4,10 +4,11 @@ Studying is not rereading. Rereading feels productive and does almost nothing. T
 
 Read [Study Smarter](../90%20-%20System/Guides/Study%20Smarter.md) once. It is the most useful guide here.
 
-## Two tools
+## Three tools
 
 1. **Study Guide**: a single page per test that pulls together the class notes for that unit, in your own words. Building it *is* the studying.
-2. **Active Recall deck**: a list of questions with the answers hidden below. You quiz yourself, out loud, then check. Redo the ones you miss.
+2. **Review Guide**: the smarter one for a time crunch. It ranks topics by your lowest scores so you study the weak stuff first, not the stuff you already know. Use the [Review Guide template](../90%20-%20System/Templates/Review%20Guide.md).
+3. **Active Recall deck**: a list of questions with the answers hidden below. You quiz yourself, out loud, then check. Redo the ones you miss.
 
 ## Active study guides
 
@@ -28,5 +29,6 @@ Read [Study Smarter](../90%20-%20System/Guides/Study%20Smarter.md) once. It is t
 - [Study Smarter](../90%20-%20System/Guides/Study%20Smarter.md): the why and the how
 - [Study with AI (NotebookLM and Gemini)](../90%20-%20System/Guides/Study%20with%20AI%20(NotebookLM%20and%20Gemini).md): quiz yourself from your own notes, even when school blocks ChatGPT
 - [Study Guide Template](../90%20-%20System/Templates/Study%20Guide.md)
+- [Review Guide Template](../90%20-%20System/Templates/Review%20Guide.md): study your lowest scores first
 - [Active Recall Template](../90%20-%20System/Templates/Active%20Recall.md)
 - [Classes MOC](../10%20-%20Classes/Classes%20MOC.md): pull notes from here into a guide

@@ -27,6 +27,14 @@ Rate this week, 1 to 5, and be honest. The point is to notice a slide early, not
 **What got too much of me this week, and what got too little?**
 >
 
+## Connect it to real life
+
+One line: something you learned this week and where it actually shows up outside of class. This is the fix for "why do I need to know this." Do it every week and school stops feeling random.
+>
+
+**Did I stack a good day on a good day this week?** Consistency beats one big push. How many days did I actually move forward?
+>
+
 ## Clean up
 
 - [ ] Empty the [[About the Inbox|Inbox]], file or delete each item

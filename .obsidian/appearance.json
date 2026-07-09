@@ -1,4 +1,9 @@
 {
   "theme": "system",
-  "accentColor": "#4A90D9"
+  "accentColor": "#0099FF",
+  "enabledCssSnippets": [
+    "pioneer-lanes"
+  ],
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter"
 }

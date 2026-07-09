@@ -1,0 +1,163 @@
+/* Pioneer folder lanes for The Student Vault.
+   Modeled on the PioneerSecondBrain vault-folder-lanes.css, remapped to the
+   Pioneer AI & Data palette (navy #0D1B4B, orange #F5821F, electric #0099FF).
+   Each top-level folder gets a lane color: text, a 3px left border, and a
+   translucent tint. Deadlines (Assignments) carry the orange signal flare.
+   Enable via appearance.json enabledCssSnippets: ["pioneer-lanes"]. */
+
+.theme-light {
+  --lane-inbox: #9a6700;
+  --lane-daily: #1d6fd0;
+  --lane-classes: #0a7ea4;
+  --lane-assign: #c2610a;
+  --lane-study: #5b47c9;
+  --lane-reading: #7b45c9;
+  --lane-life: #0f7b53;
+  --lane-college: #8a3f6d;
+  --lane-athletics: #b23a5b;
+  --lane-music: #0a7f84;
+  --lane-system: #516174;
+}
+
+.theme-dark {
+  --lane-inbox: #ffc266;
+  --lane-daily: #6ea8ff;
+  --lane-classes: #4ab8ff;
+  --lane-assign: #ff9d4d;
+  --lane-study: #a99bff;
+  --lane-reading: #c79bff;
+  --lane-life: #57d69d;
+  --lane-college: #f39bc7;
+  --lane-athletics: #ff9bb3;
+  --lane-music: #6ee1de;
+  --lane-system: #c3ceda;
+}
+
+/* base: give every top-level folder title a rail and smooth transitions */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title {
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease;
+}
+
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title .tree-item-icon {
+  color: inherit;
+}
+
+/* bold only the top-level folders (their data-path has no slash) */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:not([data-path*="/"]) {
+  font-weight: 600;
+}
+
+/* --- lane: 00 - Inbox (capture) --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="00 - Inbox"],[data-path^="00 - Inbox/"]) {
+  color: var(--lane-inbox);
+  border-left-color: var(--lane-inbox);
+  background-color: color-mix(in srgb, var(--lane-inbox) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="00 - Inbox"],[data-path^="00 - Inbox/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-inbox) 18%, transparent);
+}
+
+/* --- lane: 01 - Daily --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="01 - Daily"],[data-path^="01 - Daily/"]) {
+  color: var(--lane-daily);
+  border-left-color: var(--lane-daily);
+  background-color: color-mix(in srgb, var(--lane-daily) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="01 - Daily"],[data-path^="01 - Daily/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-daily) 18%, transparent);
+}
+
+/* --- lane: 10 - Classes (academic core, electric) --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="10 - Classes"],[data-path^="10 - Classes/"]) {
+  color: var(--lane-classes);
+  border-left-color: var(--lane-classes);
+  background-color: color-mix(in srgb, var(--lane-classes) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="10 - Classes"],[data-path^="10 - Classes/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-classes) 18%, transparent);
+}
+
+/* --- lane: 20 - Assignments (deadlines, the orange signal) --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="20 - Assignments"],[data-path^="20 - Assignments/"]) {
+  color: var(--lane-assign);
+  border-left-color: var(--lane-assign);
+  background-color: color-mix(in srgb, var(--lane-assign) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="20 - Assignments"],[data-path^="20 - Assignments/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-assign) 18%, transparent);
+}
+
+/* --- lane: 30 - Study --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="30 - Study"],[data-path^="30 - Study/"]) {
+  color: var(--lane-study);
+  border-left-color: var(--lane-study);
+  background-color: color-mix(in srgb, var(--lane-study) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="30 - Study"],[data-path^="30 - Study/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-study) 18%, transparent);
+}
+
+/* --- lane: 40 - Reading --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="40 - Reading"],[data-path^="40 - Reading/"]) {
+  color: var(--lane-reading);
+  border-left-color: var(--lane-reading);
+  background-color: color-mix(in srgb, var(--lane-reading) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="40 - Reading"],[data-path^="40 - Reading/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-reading) 18%, transparent);
+}
+
+/* --- lane: 50 - Life --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="50 - Life"],[data-path^="50 - Life/"]) {
+  color: var(--lane-life);
+  border-left-color: var(--lane-life);
+  background-color: color-mix(in srgb, var(--lane-life) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="50 - Life"],[data-path^="50 - Life/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-life) 18%, transparent);
+}
+
+/* --- lane: 60 - College & Future --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="60 - College & Future"],[data-path^="60 - College & Future/"]) {
+  color: var(--lane-college);
+  border-left-color: var(--lane-college);
+  background-color: color-mix(in srgb, var(--lane-college) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="60 - College & Future"],[data-path^="60 - College & Future/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-college) 18%, transparent);
+}
+
+/* --- lane: 70 - Athletics --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="70 - Athletics"],[data-path^="70 - Athletics/"]) {
+  color: var(--lane-athletics);
+  border-left-color: var(--lane-athletics);
+  background-color: color-mix(in srgb, var(--lane-athletics) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="70 - Athletics"],[data-path^="70 - Athletics/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-athletics) 18%, transparent);
+}
+
+/* --- lane: 80 - Music --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="80 - Music"],[data-path^="80 - Music/"]) {
+  color: var(--lane-music);
+  border-left-color: var(--lane-music);
+  background-color: color-mix(in srgb, var(--lane-music) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="80 - Music"],[data-path^="80 - Music/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-music) 18%, transparent);
+}
+
+/* --- lane: 90 - System --- */
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="90 - System"],[data-path^="90 - System/"]) {
+  color: var(--lane-system);
+  border-left-color: var(--lane-system);
+  background-color: color-mix(in srgb, var(--lane-system) 12%, transparent);
+}
+.workspace-leaf-content[data-type="file-explorer"] .nav-folder-title:is([data-path="90 - System"],[data-path^="90 - System/"]):hover {
+  background-color: color-mix(in srgb, var(--lane-system) 18%, transparent);
+}

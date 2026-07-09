@@ -29,8 +29,13 @@ The moment a teacher says a due date, write it here before you leave the room. N
 
 > Power move: if you turn on the community plugin Dataview later, this table can build itself from the status fields in each note. It is optional. The by-hand table works fine and never breaks.
 
+## Before anything goes out the door
+
+Do not turn work in straight off the last sentence you wrote. Run it through the [Before You Submit](../90%20-%20System/Templates/Before%20You%20Submit.md) checklist first. It takes two minutes and catches the holes that cost you points. See [Do Work You're Proud Of](../90%20-%20System/Guides/Do%20Work%20You're%20Proud%20Of.md).
+
 ## Connected Notes
 
 - [Classes MOC](../10%20-%20Classes/Classes%20MOC.md): jump to any class
 - [Study Hub](../30%20-%20Study/Study%20Hub.md): for tests, an assignment and a study guide go together
 - [Assignment Template](../90%20-%20System/Templates/Assignment.md)
+- [Before You Submit](../90%20-%20System/Templates/Before%20You%20Submit.md): the final quality gate

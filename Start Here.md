@@ -15,7 +15,7 @@ The loop this vault is built around:
 > **Capture. Keep. Understand.**
 > Get the thought out fast. Keep what matters. Then question it until you actually understand it.
 
-Read [The Loop](90%20-%20System/Guides/The%20Loop%20-%20Capture%20Keep%20Understand.md) once. It explains the three tools (voice to text, this vault, and an AI that only answers from your own sources).
+Read [The Loop](90%20-%20System/Guides/The%20Loop%20-%20Capture%20Keep%20Understand.md) once. It explains the three tools (voice to text, this vault, and an AI that only answers from your own sources). Then read [Why This Vault Exists](Why%20This%20Vault%20Exists.md) for the two-minute version of the whole idea.
 
 ---
 
@@ -55,6 +55,17 @@ Read [The Loop](90%20-%20System/Guides/The%20Loop%20-%20Capture%20Keep%20Underst
 - [Linking & MOCs 101](90%20-%20System/Guides/Linking%20%26%20MOCs%20101.md): how notes connect
 - [Assignments Dashboard](20%20-%20Assignments/Assignments%20Dashboard.md): what is due and when
 - [Weekly Review](90%20-%20System/Templates/Weekly%20Review.md): 10 minutes on Sunday keeps the whole thing from falling apart
+
+---
+
+## 🛠️ How to work (the method)
+
+This vault is built on how real teams do quality work. Four short guides carry it:
+
+- [Do Work You're Proud Of](90%20-%20System/Guides/Do%20Work%20You're%20Proud%20Of.md): write the rubric first, plan, build, check
+- [Be Your Own Reviewer](90%20-%20System/Guides/Be%20Your%20Own%20Reviewer.md): fresh eyes catch what you cannot
+- [Ask AI the Right Way](90%20-%20System/Guides/Ask%20AI%20the%20Right%20Way.md): tutor and critic, never ghostwriter
+- [How to Think](90%20-%20System/Guides/How%20to%20Think.md): the mental models that carry across every class
 
 ---
 

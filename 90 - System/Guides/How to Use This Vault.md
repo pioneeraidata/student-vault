@@ -30,6 +30,10 @@ Drop back to the one habit: open the daily note, write two sentences. Momentum b
 - [Linking & MOCs 101](Linking%20%26%20MOCs%20101.md): how notes connect, in two minutes
 - [Study Smarter](Study%20Smarter.md): how to use this vault to actually remember things
 - [Managing Your Time](Managing%20Your%20Time.md): when school, your sport, music, and friends all collide
+- [Do Work You're Proud Of](Do%20Work%20You're%20Proud%20Of.md): the way to work: rubric first, plan, build, check
+- [Be Your Own Reviewer](Be%20Your%20Own%20Reviewer.md): get fresh eyes before it counts
+- [Ask AI the Right Way](Ask%20AI%20the%20Right%20Way.md): use AI as a tutor, not a ghostwriter
+- [How to Think](How%20to%20Think.md): mental models that work in every class
 - [Setup: Turn On These Plugins](Setup%20-%20Turn%20On%20These%20Plugins.md): the two settings that make it click
 
 ## Connected Notes
